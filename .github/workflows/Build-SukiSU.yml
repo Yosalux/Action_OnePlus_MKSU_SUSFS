@@ -1,5 +1,8 @@
 name: Build OnePlus_SukiSU Ultra All
 on:
+  schedule:
+    - cron: '0 9 * * 1'
+
   workflow_dispatch:
     inputs:
       CPU:
